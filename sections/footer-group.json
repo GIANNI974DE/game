@@ -24,7 +24,7 @@
             "icon_background": "",
             "icon_color": "",
             "title": "Livraison gratuite",
-            "content": ""
+            "content": "<p>Votre commande est livrée <strong>directement chez vous sous 7 à 9 jours ouvrés</strong>, sans frais supplémentaires.</p><p>Suivi complet dans la section ' Suivre ma commande '</p>"
           }
         },
         "customer-support": {
@@ -36,21 +36,8 @@
             "icon_background_type": "none",
             "icon_background": "",
             "icon_color": "",
-            "title": "Customer service",
-            "content": "<p>Tell your customers how they can reach you.</p>"
-          }
-        },
-        "discount": {
-          "type": "item",
-          "settings": {
-            "icon": "picto-coupon",
-            "mobile_icon_width": 24,
-            "icon_width": 24,
-            "icon_background_type": "none",
-            "icon_background": "",
-            "icon_color": "",
-            "title": "Refer a friend",
-            "content": "<p>Tell your customers about your promotional offers.</p>"
+            "title": "Service après-vente",
+            "content": "<p>Notre équipe reste à votre écoute pour toute question ou demande d’assistance, uniquement via e-mail. Nous répondons sous <strong>24 à 48 heures ouvrées</strong>.</p>"
           }
         },
         "payment": {
@@ -62,15 +49,14 @@
             "icon_background_type": "none",
             "icon_background": "",
             "icon_color": "",
-            "title": "Secure payment",
-            "content": "<p>Tel your customers about your payment methods.</p>"
+            "title": "Paiement sécurisé",
+            "content": "<p>Toutes vos transactions sont protégées grâce au cryptage SSL et à nos partenaires de paiement certifiés (Visa, Mastercard, PayPal, etc ...).</p><p>Achetez en toute confiance sur notre site.</p>"
           }
         }
       },
       "block_order": [
         "free-shipping",
         "customer-support",
-        "discount",
         "payment"
       ],
       "settings": {
