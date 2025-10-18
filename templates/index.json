@@ -127,11 +127,111 @@
         "heading_color": "",
         "heading_gradient": "linear-gradient(230deg, rgba(10, 234, 237, 1) 11%, rgba(250, 13, 253, 1) 84%)"
       }
+    },
+    "scrolling_image_LBcAbG": {
+      "type": "scrolling-image",
+      "blocks": {
+        "image_qhJF6c": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Design_sans_titre_10.png",
+            "url": ""
+          }
+        },
+        "image_t96cMz": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Design_sans_titre_9.png",
+            "url": ""
+          }
+        },
+        "image_39Vzzn": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Design_sans_titre_8.png",
+            "url": ""
+          }
+        },
+        "image_tbGiJE": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Design_sans_titre_11.png",
+            "url": ""
+          }
+        },
+        "image_UnDptf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Design_sans_titre_7.png",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_qhJF6c",
+        "image_t96cMz",
+        "image_39Vzzn",
+        "image_tbGiJE",
+        "image_UnDptf"
+      ],
+      "name": "Scrolling Images",
+      "settings": {
+        "heading": "",
+        "heading_custom": false,
+        "heading_font": "josefin_sans_n4",
+        "heading_size": 70,
+        "heading_height": 100,
+        "heading_align": "center",
+        "slider_speed": 10,
+        "slider_gap": 10,
+        "slider_gap_mobile": 10,
+        "slider_mt": 0,
+        "slider_direction": "left",
+        "pause_hover": false,
+        "image_width_desktop": 300,
+        "image_width_mobile": 120,
+        "image_height_desktop": 400,
+        "image_height_mobile": 200,
+        "image_radius": 10,
+        "use_content": true,
+        "content_position": "center",
+        "content_max_width": 340,
+        "content_max_width_mobile": 340,
+        "content_padding_vertical": 30,
+        "content_padding_horizontal": 30,
+        "content_distance": 60,
+        "content_radius": 10,
+        "content_border_thickness": 0,
+        "use_shadow": false,
+        "text": "",
+        "text_custom": false,
+        "text_font": "assistant_n4",
+        "text_size": 24,
+        "text_height": 130,
+        "heading_color": "#000000",
+        "content_bg": "#f0f0f0",
+        "content_border_color": "#000000",
+        "text_color": "#000000",
+        "background_color": "#f0f0f0",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_horizontal": 0,
+        "padding_horizontal_mobile": 0,
+        "full_width": true,
+        "content_width": 0,
+        "border_thickness": 0,
+        "lazy": true
+      }
     }
   },
   "order": [
     "slideshow",
     "rich_text_HVcEp6",
-    "images_with_text_scrolling_VYPPUB"
+    "images_with_text_scrolling_VYPPUB",
+    "scrolling_image_LBcAbG"
   ]
 }
