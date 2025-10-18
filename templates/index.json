@@ -83,45 +83,55 @@
         "text_color": ""
       }
     },
-    "impact-text": {
-      "type": "impact-text",
+    "images_with_text_scrolling_VYPPUB": {
+      "type": "images-with-text-scrolling",
       "blocks": {
-        "1664424181b38582d5-0": {
+        "item_HXwaYH": {
           "type": "item",
           "settings": {
-            "title": "",
-            "subheading": "Aujourd’hui, cette console portable réunit plus de 10 000 jeux cultes dans un seul appareil.Grâce à son design compact, son écran HD et sa compatibilité TV, retrouvez les sensations d’autrefois — où que vous soyez.Une expérience unique entre nostalgie et performance moderne, pour les vrais passionnés de jeux vidéo. 👾",
-            "content": "",
-            "button_text": "",
-            "button_url": "",
-            "animate_impact_text": false,
-            "animate_impact_text_duration": 2
+            "image": "shopify://shop_images/Design_sans_titre.png",
+            "icon": "none",
+            "icon_width": 24,
+            "title": " Plongez dans un univers de jeux légendaires ",
+            "content": "<p>Avec plus de <strong>40 000 jeux intégrés</strong>, cette console regroupe <strong>toutes les époques du gaming</strong> : arcade, Nintendo, Sega, PlayStation, Game Boy et bien plus encore.</p><p>Aucun téléchargement, aucun abonnement — <strong>vous allumez, vous jouez</strong>.</p><p>Redécouvrez les classiques qui ont marqué votre enfance, directement dans votre main.</p>"
+          }
+        },
+        "item_QTDXrp": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/ChatGPT_Image_18_oct._2025_18_30_21.png",
+            "icon": "none",
+            "icon_width": 24,
+            "title": "Jouez où vous voulez, quand vous voulez",
+            "content": "<p>À la maison, au travail ou en plein air — <strong>votre console vous suit partout</strong>.</p><p>Compacte et légère, elle se glisse dans la poche.</p><p>Profitez de vos jeux préférés dans le bus, en pause ou dans votre salon,et <strong>connectez-la à votre télé pour jouer sur grand écran</strong>.</p><p><strong>Liberté totale, plaisir garanti.</strong></p>"
           }
         }
       },
       "block_order": [
-        "1664424181b38582d5-0"
+        "item_HXwaYH",
+        "item_QTDXrp"
       ],
+      "custom_css": [
+        ".custom-heading {font-size: 20px !important; line-height: 1.3;}"
+      ],
+      "name": "Images and text scrolling",
       "settings": {
         "full_width": true,
-        "stack_mobile": true,
-        "text_alignment": "center",
-        "impact_text_style": "fill",
-        "text_divider": "none",
-        "impact_text_size_ratio": 1,
+        "stack_on_mobile": false,
+        "show_counter": true,
+        "desktop_image_effect": "reveal",
+        "image_position": "end",
         "background": "",
         "background_gradient": "",
-        "heading_text_color": "",
-        "heading_gradient": "linear-gradient(180deg, rgba(26, 26, 26, 0.2), rgba(26, 26, 26, 0) 100%)",
         "text_color": "",
-        "button_background": "",
-        "button_text_color": ""
+        "heading_color": "",
+        "heading_gradient": "linear-gradient(230deg, rgba(10, 234, 237, 1) 11%, rgba(250, 13, 253, 1) 84%)"
       }
     }
   },
   "order": [
     "slideshow",
     "rich_text_HVcEp6",
-    "impact-text"
+    "images_with_text_scrolling_VYPPUB"
   ]
 }
