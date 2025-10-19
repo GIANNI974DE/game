@@ -213,11 +213,25 @@
         "accordion_background": "",
         "accordion_text_color": ""
       }
+    },
+    "custom_liquid_QnhbFp": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<style>\n/* ---- Bloc image gauche / texte droite ---- */\n.split-hero {\n  max-width: 1200px;\n  margin: 32px auto;\n  padding: 0 16px;\n}\n.split-hero__grid {\n  display: grid;\n  grid-template-columns: 1fr 1fr; /* image | texte */\n  gap: 28px;\n  align-items: center;\n}\n.split-hero__media img {\n  width: 100%;\n  height: auto;\n  display: block;\n  border-radius: 16px;\n  box-shadow: 0 8px 24px rgba(0,0,0,.08);\n}\n.split-hero__title {\n  font-size: clamp(24px, 3.2vw, 36px);\n  font-weight: 800;\n  margin: 0 0 10px;\n}\n.split-hero__text {\n  font-size: 16px;\n  line-height: 1.7;\n  color: #222;\n  margin: 0 0 14px;\n}\n.split-hero__list {\n  margin: 10px 0 0;\n  padding-left: 0;\n  list-style: none;\n}\n.split-hero__list li {\n  margin: 8px 0;\n}\n.split-hero__list li::before {\n  content: \"✔️\";\n  margin-right: 8px;\n}\n\n/* Responsive : empile en mobile (image au-dessus) */\n@media (max-width: 768px) {\n  .split-hero__grid {\n    grid-template-columns: 1fr;\n  }\n}\n</style>\n\n<div class=\"split-hero\">\n  <div class=\"split-hero__grid\">\n    <!-- Image à gauche -->\n    <div class=\"split-hero__media\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0926/7943/8710/files/sou.png?v=1759922522\">\n    </div>\n\n    <!-- Texte à droite -->\n    <div class=\"split-hero__content\">\n      <h2 class=\"split-hero__title\">🎮 Jouez avec vos amis</h2>\n      <p class=\"split-hero__text\">\n        Connectez deux consoles GameLabs pour jouer en face-à-face sur vos jeux préférés : courses, combats, mini-jeux et plus encore.<br><br>\n        Pour les échanges et évolutions, ajoutez simplement le dongle Wi-Fi, connectez les deux consoles au même réseau, et profitez du multijoueur sans limite !\n      </p>\n    </div>\n  </div>\n</div>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
     }
   },
   "order": [
     "main",
     "related-products",
-    "faq_ebdKLD"
+    "faq_ebdKLD",
+    "custom_liquid_QnhbFp"
   ]
 }
