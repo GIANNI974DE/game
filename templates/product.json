@@ -227,19 +227,6 @@
         "text_color": ""
       }
     },
-    "custom_liquid_6dNzJw": {
-      "type": "custom-liquid",
-      "name": "Custom Liquid",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "liquid": "<style>\n/* ---- Bloc texte gauche / image droite ---- */\n.split-hero {\n  max-width: 1200px;\n  margin: 32px auto;\n  padding: 0 16px;\n}\n.split-hero__grid {\n  display: grid;\n  grid-template-columns: 1fr 1fr; /* texte | image */\n  gap: 28px;\n  align-items: center;\n}\n.split-hero__media video {\n  width: 100%;\n  height: auto;\n  display: block;\n  border-radius: 16px;\n  box-shadow: 0 8px 24px rgba(0,0,0,.08);\n}\n.split-hero__title {\n  font-size: clamp(24px, 3.2vw, 36px);\n  font-weight: 800;\n  margin: 0 0 10px;\n}\n.split-hero__text {\n  font-size: 16px;\n  line-height: 1.7;\n  color: #222;\n  margin: 0 0 14px;\n}\n\n/* Responsive : vidéo au-dessus sur mobile */\n@media (max-width: 768px) {\n  .split-hero__grid {\n    grid-template-columns: 1fr;\n  }\n  .split-hero__media {\n    order: -1; /* ✅ Fait remonter la vidéo au-dessus du texte sur mobile */\n  }\n}\n</style>\n\n<div class=\"split-hero\">\n  <div class=\"split-hero__grid\">\n    <!-- Texte à gauche -->\n    <div class=\"split-hero__content\">\n      <h2 class=\"split-hero__title\">Ne perdez plus jamais votre progression !</h2>\n      <p class=\"split-hero__text\">\n        Appuyez sur <strong>Select + X</strong> pour enregistrer votre progression avant un boss, un saut difficile ou le dernier tour.<br><br>\n        En cas d’échec, rechargez instantanément et retentez votre chance — plus besoin de tout recommencer !<br><br>\n        Une fonction indispensable pour profiter pleinement de vos jeux rétro sans frustration.\n      </p>\n    </div>\n\n    <!-- Vidéo à droite (et en haut sur mobile) -->\n    <div class=\"split-hero__media\">\n      <video autoplay loop muted playsinline>\n        <source src=\"https://cdn.shopify.com/videos/c/o/v/2e11a912eeba4c87bbb228521cb730d3.mp4\" type=\"video/mp4\">\n      </video>\n    </div>\n  </div>\n</div>",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
     "rich_text_igtffN": {
       "type": "rich-text",
       "blocks": {
@@ -272,6 +259,32 @@
         "background_gradient": "",
         "text_color": ""
       }
+    },
+    "custom_liquid_6dNzJw": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<style>\n/* ---- Bloc texte gauche / image droite ---- */\n.split-hero {\n  max-width: 1200px;\n  margin: 32px auto;\n  padding: 0 16px;\n}\n.split-hero__grid {\n  display: grid;\n  grid-template-columns: 1fr 1fr; /* texte | image */\n  gap: 28px;\n  align-items: center;\n}\n.split-hero__media video {\n  width: 100%;\n  height: auto;\n  display: block;\n  border-radius: 16px;\n  box-shadow: 0 8px 24px rgba(0,0,0,.08);\n}\n.split-hero__title {\n  font-size: clamp(24px, 3.2vw, 36px);\n  font-weight: 800;\n  margin: 0 0 10px;\n}\n.split-hero__text {\n  font-size: 16px;\n  line-height: 1.7;\n  color: #222;\n  margin: 0 0 14px;\n}\n\n/* Responsive : vidéo au-dessus sur mobile */\n@media (max-width: 768px) {\n  .split-hero__grid {\n    grid-template-columns: 1fr;\n  }\n  .split-hero__media {\n    order: -1; /* ✅ Fait remonter la vidéo au-dessus du texte sur mobile */\n  }\n}\n</style>\n\n<div class=\"split-hero\">\n  <div class=\"split-hero__grid\">\n    <!-- Texte à gauche -->\n    <div class=\"split-hero__content\">\n      <h2 class=\"split-hero__title\">Ne perdez plus jamais votre progression !</h2>\n      <p class=\"split-hero__text\">\n        Appuyez sur <strong>Select + X</strong> pour enregistrer votre progression avant un boss, un saut difficile ou le dernier tour.<br><br>\n        En cas d’échec, rechargez instantanément et retentez votre chance — plus besoin de tout recommencer !<br><br>\n        Une fonction indispensable pour profiter pleinement de vos jeux rétro sans frustration.\n      </p>\n    </div>\n\n    <!-- Vidéo à droite (et en haut sur mobile) -->\n    <div class=\"split-hero__media\">\n      <video autoplay loop muted playsinline>\n        <source src=\"https://cdn.shopify.com/videos/c/o/v/2e11a912eeba4c87bbb228521cb730d3.mp4\" type=\"video/mp4\">\n      </video>\n    </div>\n  </div>\n</div>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "custom_html_UqcBjk": {
+      "type": "custom-html",
+      "name": "Custom HTML",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "html": "<style>\n.reviews-wrapper {\n  max-width: 1200px;\n  margin: 40px auto;\n  position: relative;\n}\n\n.review-title {\n  text-align: center;\n  margin-bottom: 10px;\n  font-size: 28px;\n  font-weight: bold;\n  color: #111;\n}\n\n.review-subtitle {\n  text-align: center;\n  margin-bottom: 30px;\n  font-size: 18px;\n  color: #444;\n}\n\n.reviews-container {\n  display: grid;\n  grid-template-columns: repeat(4, 1fr);\n  gap: 20px;\n}\n\n.review-card {\n  background: #f0faff;\n  border-radius: 12px;\n  padding: 20px;\n  text-align: center;\n  box-shadow: 0 4px 10px rgba(0,0,0,0.08);\n}\n\n.review-card img {\n  width: 100%;\n  max-width: 500px;\n  height: auto;\n  border-radius: 10px;\n  margin-bottom: 15px;\n}\n\n.stars {\n  color: #FFD700;\n  font-size: 18px;\n  margin-bottom: 10px;\n}\n\n.review-text {\n  font-size: 15px;\n  line-height: 1.5;\n  color: #333;\n  margin-bottom: 10px;\n}\n\n.review-author {\n  font-weight: bold;\n  margin-top: 5px;\n  font-size: 14px;\n  color: #555;\n}\n\n/* --- Mode mobile : un seul avis à la fois --- */\n@media(max-width: 600px) {\n  .reviews-container {\n    display: flex;\n    overflow: hidden;\n    position: relative;\n  }\n  .review-card {\n    flex: 0 0 100%;\n    display: none; /* par défaut caché */\n  }\n  .review-card.active {\n    display: block; /* seul l’actif apparaît */\n  }\n\n  /* Flèches */\n  .slider-btn {\n    display: block;\n    position: absolute;\n    top: 50%;\n    transform: translateY(-50%);\n    background: rgba(0,0,0,0.5);\n    color: #fff;\n    border: none;\n    font-size: 22px;\n    padding: 8px 12px;\n    cursor: pointer;\n    border-radius: 50%;\n    z-index: 2;\n  }\n  .slider-btn.left { left: 10px; }\n  .slider-btn.right { right: 10px; }\n}\n\n/* Flèches cachées sur desktop */\n@media(min-width: 601px) {\n  .slider-btn { display: none; }\n}\n</style>\n\n<div class=\"reviews-wrapper\">\n  <!-- TITRE -->\n  <h2 class=\"review-title\">Ils valident Deos !</h2>\n  <p class=\"review-subtitle\">Après seulement <b>7 jours</b></p>\n\n  <!-- Flèches -->\n  <button class=\"slider-btn left\" onclick=\"moveSlide(-1)\">‹</button>\n  <button class=\"slider-btn right\" onclick=\"moveSlide(1)\">›</button>\n\n  <!-- Conteneur des avis -->\n  <div class=\"reviews-container\" id=\"reviews-slider\">\n    \n    <!-- Avis 1 -->\n    <div class=\"review-card active\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0926/7943/8710/files/081f932e-c05e-4293-bbee-510ab5f46214.jpg?v=1759914283\" alt=\"Avis client 1\">\n      <div class=\"stars\">★★★★★</div>\n      <p class=\"review-text\">\n       Produit super efficace — je sens vraiment la différence : plus d’inconfort en réunion, plus de stress avant un rencard. Je recommande pour ceux qui veulent retrouver confiance.\n      </p>\n      <p class=\"review-author\">- David A., Noisy-le-Grand </p>\n    </div>\n\n    <!-- Avis 2 -->\n    <div class=\"review-card\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0926/7943/8710/files/femme.jpg?v=1759915760\" alt=\"Avis client 2\">\n      <div class=\"stars\">★★★★★</div>\n      <p class=\"review-text\">\n        Produit pratique et efficace. J’ai un travail qui m’oblige à parler beaucoup et j’avais toujours peur des retours. Depuis Deos je n’ai plus ce souci : même après un déjeuner copieux je sens que ça tient. Facile à intégrer dans la routine. \n      </p>\n      <p class=\"review-author\">– Anonyme., Le Havre</p>\n    </div>\n\n    <!-- Avis 3 -->\n    <div class=\"review-card\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0926/7943/8710/files/mains.jpg?v=1759916140\" alt=\"Avis client 3\">\n      <div class=\"stars\">★★★★★</div>\n      <p class=\"review-text\">\n       La transpiration me gênait dans ma vie sociale. Après une semaine avec Deos c’est beaucoup mieux. J’apprécie surtout que ce soit une solution douce et naturelle.\n      </p>\n      <p class=\"review-author\">– Théo P., Signy </p>\n    </div>\n\n    <!-- Avis 4 -->\n    <div class=\"review-card\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0926/7943/8710/files/lavabo.jpg?v=1759916747\" alt=\"Avis client 4\">\n      <div class=\"stars\">★★★★★</div>\n      <p class=\"review-text\">\n        Très satisfait, ça a eu un vrai effet au bout d’une semaine : beaucoup moins d’odeurs persistantes. Je l’ai recommandé à des amis qui ont eu les mêmes résultats. \n      </p>\n      <p class=\"review-author\">– Enzo B., Bordeaux</p>\n    </div>\n\n  </div>\n</div>\n\n<script>\nlet currentIndex = 0;\nfunction moveSlide(direction) {\n  const slider = document.getElementById(\"reviews-slider\");\n  const cards = slider.querySelectorAll(\".review-card\");\n  cards[currentIndex].classList.remove(\"active\");\n  currentIndex = (currentIndex + direction + cards.length) % cards.length;\n  cards[currentIndex].classList.add(\"active\");\n}\n</script>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
     }
   },
   "order": [
@@ -280,6 +293,7 @@
     "faq_ebdKLD",
     "custom_liquid_QnhbFp",
     "rich_text_igtffN",
-    "custom_liquid_6dNzJw"
+    "custom_liquid_6dNzJw",
+    "custom_html_UqcBjk"
   ]
 }
