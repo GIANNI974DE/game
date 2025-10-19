@@ -292,8 +292,34 @@
         "item_pMggLw": {
           "type": "item",
           "settings": {
-            "video": "shopify://files/videos/Design sans titre (3).mp4",
+            "video": "shopify://files/videos/Vidéo 12.mp4",
             "column_size": "1.5",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_ygAMFr": {
+          "type": "item",
+          "settings": {
+            "video": "shopify://files/videos/Vidéo 51.mp4",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_jxGQAF": {
+          "type": "item",
+          "settings": {
+            "video": "shopify://files/videos/Vidéo x.mp4",
+            "column_size": "3",
             "title": "",
             "heading_tag": "h4",
             "content": "",
@@ -318,10 +344,11 @@
         "item_r8TfDJ": {
           "type": "item",
           "settings": {
+            "video": "shopify://files/videos/Vidéo 10.mp4",
             "column_size": "3",
-            "title": "Column title",
+            "title": "",
             "heading_tag": "h4",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "content": "",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -330,6 +357,8 @@
       },
       "block_order": [
         "item_pMggLw",
+        "item_ygAMFr",
+        "item_jxGQAF",
         "item_zXzeFQ",
         "item_r8TfDJ"
       ],
