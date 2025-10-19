@@ -248,14 +248,14 @@
           "settings": {
             "text": "Un seul appareil, des milliers de jeux légendaires",
             "heading_tag": "h1",
-            "text_color": "",
+            "text_color": "#803cee",
             "gradient": ""
           }
         },
         "richtext_TPNkpq": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Allumez votre console, choisissez un jeu et <strong>revivez instantanément les plus grands classiques du jeu vidéo</strong>.</p><p>Aucun téléchargement, aucun compte, aucun Wi-Fi requis — <strong>tout est déjà prêt à jouer dès l’allumage </strong>où que vous soyez.</p>"
+            "content": "<p>Allumez votre console, choisissez un jeu et <strong>revivez instantanément les plus grands classiques du jeu vidéo</strong>. </p><p>Aucun téléchargement, aucun compte, aucun Wi-Fi requis — <strong>tout est déjà prêt à jouer dès l’allumage </strong>où que vous soyez.</p>"
           }
         }
       },
