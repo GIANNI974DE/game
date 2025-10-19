@@ -60,7 +60,7 @@
             "hide_sold_out_variants": true,
             "stack_blocks": true,
             "selector_style": "block",
-            "swatch_selector_style": "block_swatch",
+            "swatch_selector_style": "swatch",
             "variant_image_options": "",
             "size_chart_page": ""
           }
