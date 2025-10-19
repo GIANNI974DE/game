@@ -306,7 +306,7 @@
           "type": "item",
           "settings": {
             "video": "shopify://files/videos/Vidéo avis 88.mp4",
-            "column_size": "3",
+            "column_size": "2",
             "title": "",
             "heading_tag": "h4",
             "content": "",
