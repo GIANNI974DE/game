@@ -41,7 +41,7 @@
         "liquid_AiePpg": {
           "type": "liquid",
           "settings": {
-            "liquid": "<div class=\"product-features\">\n  <ul class=\"features-list\">\n    <li>\n      <svg width=\"16\" height=\"16\" viewBox=\"0 0 20 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n        <circle cx=\"10\" cy=\"10\" r=\"10\" fill=\"#E98F99\"/>\n        <path d=\"M6 10L9 13L14 7\" stroke=\"white\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n      </svg>\n      <span><strong>5 fonctions en 1</strong> - Sécher, lisser, boucler, onduler et volumiser</span>\n    </li>\n    <li>\n      <svg width=\"16\" height=\"16\" viewBox=\"0 0 20 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n        <circle cx=\"10\" cy=\"10\" r=\"10\" fill=\"#E98F99\"/>\n        <path d=\"M6 10L9 13L14 7\" stroke=\"white\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n      </svg>\n      <span><strong>Technologie ionique</strong> - Protège vos cheveux de la chaleur excessive</span>\n    </li>\n    <li>\n      <svg width=\"16\" height=\"16\" viewBox=\"0 0 20 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n        <circle cx=\"10\" cy=\"10\" r=\"10\" fill=\"#E98F99\"/>\n        <path d=\"M6 10L9 13L14 7\" stroke=\"white\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n      </svg>\n      <span><strong>Adapté à tous types de cheveux</strong> - Résultats professionnels à domicile</span>\n    </li>\n  </ul>\n</div>\n\n<style>\n.product-features {\n  margin: 20px 0;\n}\n\n.features-list {\n  list-style: none;\n  padding: 0;\n  margin: 0;\n}\n\n.features-list li {\n  display: flex;\n  align-items: center;\n  gap: 8px;\n  margin-bottom: 10px;\n  font-size: 13px;\n  line-height: 1.4;\n}\n\n.features-list li svg {\n  flex-shrink: 0;\n}\n\n.features-list li span {\n  color: #333;\n}\n</style>"
+            "liquid": "<div class=\"mini-desc-console\">\n  <p>🎮 <strong>40 000 jeux légendaires</strong><br>\n  Plongez dans l’univers rétro avec plus de 40 000 jeux cultes intégrés, prêts à jouer dès l’allumage.</p>\n\n  <p>🌍 <strong>Jouez où vous voulez, quand vous voulez</strong><br>\n  À la maison, au bureau ou dans la rue — emportez votre console partout et profitez sans limite.</p>\n\n  <p>🔋 <strong>Batterie longue durée & sauvegarde</strong><br>\n  Jusqu’à 10 heures d’autonomie et possibilité de sauvegarder vos parties à tout moment.</p>\n\n  <p>📺 <strong>Écran HD de haute qualité</strong><br>\n  Un affichage clair, lumineux et fluide pour revivre vos jeux préférés dans les meilleures conditions.</p>\n</div>\n\n<style>\n  .mini-desc-console {\n    background: transparent; /* ✅ fond transparent */\n    border: none; /* supprime la bordure */\n    padding: 12px 16px;\n    font-size: 15px;\n    color: #222;\n    line-height: 1.6;\n  }\n  .mini-desc-console p {\n    margin: 10px 0;\n  }\n  .mini-desc-console strong {\n    color: #000; /* titres en noir */\n  }\n  @media (max-width: 480px) {\n    .mini-desc-console {\n      font-size: 14px;\n      padding: 10px;\n    }\n  }\n</style>"
           }
         },
         "rating": {
@@ -73,15 +73,27 @@
           "type": "quantity_selector",
           "settings": {}
         },
+        "liquid_t3gM7M": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<!-- Stock Indicator (rouge) -->\n<style>\n  .stock-indicator {\n    display: inline-flex;\n    align-items: center;\n    background: rgba(230,57,70,0.15); /* fond rouge clair transparent */\n    color: #E63946; /* texte rouge */\n    font-size: 15px;\n    font-weight: 500;\n    padding: 6px 14px;\n    border-radius: 8px;\n  }\n  .stock-indicator .dot {\n    width: 8px;\n    height: 8px;\n    border-radius: 50%;\n    background: #E63946; /* point rouge */\n    margin-right: 8px;\n  }\n</style>\n\n<div class=\"stock-indicator\">\n  <span class=\"dot\"></span>\n  En stock : 8 seulement\n</div>"
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
-            "show_payment_button": true,
+            "show_payment_button": false,
             "show_gift_card_recipient": true,
-            "atc_button_background": "",
+            "atc_button_background": "#803cee",
             "atc_button_text_color": "",
             "payment_button_background": "",
             "payment_button_text_color": ""
+          }
+        },
+        "liquid_BxLEF3": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<!-- Timeline Livraison -->\n<style>\n  .shipping-timeline {\n    max-width: 980px;\n    margin: 24px auto;\n    padding: 8px 12px;\n    display: grid;\n    grid-template-columns: repeat(3,1fr);\n    gap: 24px;\n    font-family: inherit;\n    position: relative;\n  }\n\n  .tl-step {\n    text-align: center;\n    position: relative;\n  }\n\n  /* Ligne entre les icônes */\n  .tl-step:not(:first-child)::before {\n    content: \"\";\n    position: absolute;\n    top: 28px;\n    left: -50%;\n    width: 100%;\n    height: 3px;\n    background: #48A1DE;\n    z-index: 0;\n  }\n\n  /* Cercle */\n  .tl-icon {\n    width: 56px;\n    height: 56px;\n    border-radius: 999px;\n    margin: 0 auto 10px;\n    display: grid;\n    place-items: center;\n    background: #fff;\n    border: 3px solid #48A1DE;\n    z-index: 1;\n    position: relative;\n    overflow: hidden;\n  }\n  .tl-icon img {\n    width: 56px;   /* image agrandie */\n    height: 56px;\n    object-fit: contain;\n  }\n\n  /* Textes */\n  .tl-strong {\n    display: block;\n    font-weight: 700;\n    font-size: 16px;\n    color: #48A1DE;\n    margin-bottom: 2px;\n  }\n  .tl-sub {\n    font-size: 14px;\n    color: #333;\n    opacity: .9;\n  }\n\n  /* MOBILE : garder le même layout (3 colonnes + lignes) */\n  @media (max-width: 640px){\n    .shipping-timeline { \n      grid-template-columns: repeat(3,1fr); /* reste en 3 colonnes */\n      gap: 16px; \n    }\n    .tl-step::before { display: block; } /* conserver les lignes entre logos */\n  }\n</style>\n\n<div class=\"shipping-timeline\">\n  <!-- Étape 1 -->\n  <div class=\"tl-step\">\n    <div class=\"tl-icon\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0926/7943/8710/files/ach.png?v=1759989831\" alt=\"Panier\">\n    </div>\n    <span class=\"tl-strong\">48 heures</span>\n    <div class=\"tl-sub\">Expédié</div>\n  </div>\n\n  <!-- Étape 2 -->\n  <div class=\"tl-step\">\n    <div class=\"tl-icon\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0926/7943/8710/files/cam.png?v=1759989324\" alt=\"Camion\">\n    </div>\n    <span class=\"tl-strong\">5 à 8 jours</span>\n    <div class=\"tl-sub\">Livraison</div>\n  </div>\n\n  <!-- Étape 3 -->\n  <div class=\"tl-step\">\n    <div class=\"tl-icon\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0926/7943/8710/files/lb.png?v=1759989715\" alt=\"Livrée\">\n    </div>\n    <span class=\"tl-strong\">6 à 9 jours</span>\n    <div class=\"tl-sub\">Livrée</div>\n  </div>\n</div>"
           }
         }
       },
@@ -97,7 +109,9 @@
         "separator",
         "variant_picker",
         "quantity_selector",
-        "buy_buttons"
+        "liquid_t3gM7M",
+        "buy_buttons",
+        "liquid_BxLEF3"
       ],
       "settings": {
         "full_width": true,
@@ -138,10 +152,72 @@
         "product_card_background": "",
         "product_card_text_color": ""
       }
+    },
+    "faq_ebdKLD": {
+      "type": "faq",
+      "blocks": {
+        "item_NbBFFQ": {
+          "type": "item",
+          "settings": {
+            "title": "Description",
+            "content": "<p>Découvrez la <strong>Console Rétro Portable 40 000 Jeux</strong>, l’expérience ultime pour les nostalgiques du gaming.</p><p>Avec des milliers de titres classiques préinstallés elle vous plonge dans des heures de plaisir, sans installation ni connexion requise.</p><p><br/>Compacte, légère et équipée d’un <strong>écran HD lumineux</strong>, cette console offre une image fluide et des couleurs éclatantes.</p><p>Sa <strong>batterie longue durée (8 à 10 heures)</strong> vous accompagne partout : à la maison, au bureau ou même en déplacement.</p><p>Branchez-la à votre <strong>télévision via HDMI</strong> pour profiter d’un grand écran et revivre vos jeux préférés en famille ou entre amis.</p><p><br/>Grâce à sa fonction de <strong>sauvegarde intégrée</strong>, reprenez chaque partie exactement là où vous l’aviez laissée.</p><p>Une console tout-en-un, <strong>simple, pratique et prête à jouer</strong> dès la première mise sous tension.</p>"
+          }
+        },
+        "item_3BFD7q": {
+          "type": "item",
+          "settings": {
+            "title": "Combien de jeux sont inclus dans la console ?",
+            "content": "<p>La console contient <strong>plus de 40 000 jeux rétro préinstallés</strong>, répartis sur plusieurs plateformes : NES, Game Boy, PlayStation 1, Sega, Arcade et bien d’autres. Aucun téléchargement n’est nécessaire — elle est <strong>prête à jouer dès la première utilisation</strong>.</p>"
+          }
+        },
+        "item_bnfiyC": {
+          "type": "item",
+          "settings": {
+            "title": "Ai-je besoin d’une connexion Internet pour jouer dehors ?",
+            "content": "<p>Non, <strong>aucune connexion n’est nécessaire</strong> !</p><p>Tous les jeux sont <strong>préinstallés dans la console</strong>, donc tu peux jouer <strong>où tu veux et quand tu veux</strong>, sans Wi-Fi ni données mobiles.</p><p>C’est ce qui en fait une <strong>console 100 % portable et autonome</strong>, parfaite pour les trajets, les pauses ou les voyages.</p>"
+          }
+        },
+        "item_mMaVWN": {
+          "type": "item",
+          "settings": {
+            "title": "Le son et l’image sont-ils de bonne qualité ?",
+            "content": "<p>Oui, la console est équipée d’un <strong>écran HD 640×480 IPS</strong> offrant des couleurs vives et d’un <strong>son clair et puissant</strong> pour une expérience immersive.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_NbBFFQ",
+        "item_3BFD7q",
+        "item_bnfiyC",
+        "item_mMaVWN"
+      ],
+      "name": "FAQ",
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "team_avatar_width": 50,
+        "support_hours": "",
+        "answer_time": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
     }
   },
   "order": [
     "main",
-    "related-products"
+    "related-products",
+    "faq_ebdKLD"
   ]
 }
