@@ -239,6 +239,39 @@
         "background_gradient": "",
         "text_color": ""
       }
+    },
+    "rich_text_igtffN": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_yPMWJF": {
+          "type": "heading",
+          "settings": {
+            "text": "Un seul appareil, des milliers de jeux légendaires",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_TPNkpq": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Allumez votre console, choisissez un jeu et <strong>revivez instantanément les plus grands classiques du jeu vidéo</strong>.</p><p>Aucun téléchargement, aucun compte, aucun Wi-Fi requis — <strong>tout est déjà prêt à jouer dès l’allumage </strong>où que vous soyez.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_yPMWJF",
+        "richtext_TPNkpq"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
     }
   },
   "order": [
@@ -246,6 +279,7 @@
     "related-products",
     "faq_ebdKLD",
     "custom_liquid_QnhbFp",
-    "custom_liquid_6dNzJw"
+    "custom_liquid_6dNzJw",
+    "rich_text_igtffN"
   ]
 }
