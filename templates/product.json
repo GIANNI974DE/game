@@ -293,7 +293,7 @@
         "item_pMggLw": {
           "type": "item",
           "settings": {
-            "video": "shopify://files/videos/Vidéo 12.mp4",
+            "video": "shopify://files/videos/Sans titre (1080 x 1440 px).mp4",
             "column_size": "1.5",
             "title": "",
             "heading_tag": "h4",
@@ -382,10 +382,10 @@
     "main",
     "related-products",
     "faq_ebdKLD",
-    "custom_liquid_QnhbFp",
+    "multi_column_zD3TYK",
     "rich_text_igtffN",
+    "custom_liquid_QnhbFp",
     "custom_liquid_6dNzJw",
-    "custom_html_UqcBjk",
-    "multi_column_zD3TYK"
+    "custom_html_UqcBjk"
   ]
 }
