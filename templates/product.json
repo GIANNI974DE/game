@@ -275,6 +275,7 @@
     },
     "custom_html_UqcBjk": {
       "type": "custom-html",
+      "disabled": true,
       "name": "Custom HTML",
       "settings": {
         "full_width": true,
