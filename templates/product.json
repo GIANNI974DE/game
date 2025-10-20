@@ -44,6 +44,17 @@
             "liquid": "<div class=\"product-features\">\n  <ul class=\"features-list\">\n    <li>\n      <!-- Icône Menthe -->\n      <img class=\"feature-icon\" src=\"https://cdn.shopify.com/s/files/1/0954/3535/8488/files/Sans_titre_500_x_500_px.png?v=1760962466=\"40\" height=\"40\" loading=\"lazy\">\n      <span><strong></strong> 40 000 jeux légendaires !</span>\n    </li>\n\n    <li>\n      <!-- Icône Chlorophylle -->\n      <img class=\"feature-icon\" src=\"https://cdn.shopify.com/s/files/1/0954/3535/8488/files/Sans_titre_500_x_500_px_1.png?v=1760962466\" alt=\"Chlorophylle\" width=\"40\" height=\"40\" loading=\"lazy\">\n      <span><strong></strong> Jouez où vous voulez, quand vous voulez</span>\n    </li>\n\n    <li>\n      <!-- Icône Persil -->\n      <img class=\"feature-icon\" src=\"https://cdn.shopify.com/s/files/1/0954/3535/8488/files/Sans_titre_500_x_500_px_2.png?v=1760962465\" alt=\"Persil\" width=\"40\" height=\"40\" loading=\"lazy\">\n      <span><strong></strong> Batterie longue durée & sauvegarde</span>\n    </li>\n\n    <li>\n      <!-- Icône supplémentaire -->\n      <img class=\"feature-icon\" src=\"https://cdn.shopify.com/s/files/1/0954/3535/8488/files/Sans_titre_500_x_500_px_3.png?v=1760962465\" alt=\"Ingrédient supplémentaire\" width=\"40\" height=\"40\" loading=\"lazy\">\n      <span><strong></strong> Écran HD de haute qualité</span>\n    </li>\n  </ul>\n</div>\n\n<style>\n.product-features {\n  margin: 30px 0;\n}\n\n.features-list {\n  list-style: none;\n  padding: 0;\n  margin: 0;\n}\n\n.features-list li {\n  display: flex;\n  align-items: center;\n  gap: 16px; /* augmenté pour garder de l’air entre icône et texte */\n  margin-bottom: px;\n  font-size: 17px; /* x2 */\n  line-height: 1.6;\n}\n\n.feature-icon {\n  width: 40px;  /* x2 */\n  height: 40px; /* x2 */\n  object-fit: contain;\n  border-radius: 6px;\n}\n\n.features-list li span {\n  color: #333;\n}\n</style>"
           }
         },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": false,
+            "show_gift_card_recipient": false,
+            "atc_button_background": "#6c5ce7",
+            "atc_button_text_color": "#ffffff",
+            "payment_button_background": "#6c5ce7",
+            "payment_button_text_color": ""
+          }
+        },
         "rating": {
           "type": "rating",
           "settings": {
@@ -54,17 +65,6 @@
           "type": "payment_terms",
           "settings": {}
         },
-        "variant_picker": {
-          "type": "variant_picker",
-          "settings": {
-            "hide_sold_out_variants": false,
-            "stack_blocks": true,
-            "selector_style": "dropdown",
-            "swatch_selector_style": "none",
-            "variant_image_options": "",
-            "size_chart_page": ""
-          }
-        },
         "quantity_selector": {
           "type": "quantity_selector",
           "settings": {}
@@ -73,17 +73,6 @@
           "type": "liquid",
           "settings": {
             "liquid": "<!-- Stock Indicator (rouge) -->\n<style>\n  .stock-indicator {\n    display: inline-flex;\n    align-items: center;\n    background: rgba(230,57,70,0.15); /* fond rouge clair transparent */\n    color: #E63946; /* texte rouge */\n    font-size: 15px;\n    font-weight: 500;\n    padding: 6px 14px;\n    border-radius: 8px;\n  }\n  .stock-indicator .dot {\n    width: 8px;\n    height: 8px;\n    border-radius: 50%;\n    background: #E63946; /* point rouge */\n    margin-right: 8px;\n  }\n</style>\n\n<div class=\"stock-indicator\">\n  <span class=\"dot\"></span>\n  En stock : 8 seulement\n</div>"
-          }
-        },
-        "buy_buttons": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_payment_button": false,
-            "show_gift_card_recipient": false,
-            "atc_button_background": "#6c5ce7",
-            "atc_button_text_color": "#ffffff",
-            "payment_button_background": "#6c5ce7",
-            "payment_button_text_color": ""
           }
         },
         "liquid_BxLEF3": {
@@ -100,12 +89,11 @@
         "liquid_ChtfeV",
         "separator",
         "liquid_AiePpg",
+        "buy_buttons",
         "rating",
         "payment_terms",
-        "variant_picker",
         "quantity_selector",
         "liquid_t3gM7M",
-        "buy_buttons",
         "liquid_BxLEF3"
       ],
       "settings": {
