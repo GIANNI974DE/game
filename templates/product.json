@@ -221,7 +221,7 @@
           "type": "item",
           "settings": {
             "video": "shopify://files/videos/Sans titre (1080 x 1440 px) (600 x 800 px).mp4",
-            "column_size": "1.5",
+            "column_size": "4",
             "title": "",
             "heading_tag": "h4",
             "content": "",
@@ -234,7 +234,7 @@
           "type": "item",
           "settings": {
             "video": "shopify://files/videos/Vidéo 51.mp4",
-            "column_size": "3",
+            "column_size": "4",
             "title": "",
             "heading_tag": "h4",
             "content": "",
@@ -247,7 +247,7 @@
           "type": "item",
           "settings": {
             "video": "shopify://files/videos/Vidéo x.mp4",
-            "column_size": "3",
+            "column_size": "4",
             "title": "",
             "heading_tag": "h4",
             "content": "",
@@ -260,7 +260,7 @@
           "type": "item",
           "settings": {
             "video": "shopify://files/videos/Vidéo avis 88.mp4",
-            "column_size": "2",
+            "column_size": "4",
             "title": "",
             "heading_tag": "h4",
             "content": "",
@@ -273,7 +273,7 @@
           "type": "item",
           "settings": {
             "video": "shopify://files/videos/Vidéo 10.mp4",
-            "column_size": "3",
+            "column_size": "4",
             "title": "",
             "heading_tag": "h4",
             "content": "",
