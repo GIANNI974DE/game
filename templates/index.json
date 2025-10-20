@@ -89,10 +89,10 @@
         "item_HXwaYH": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/r36s-1_7f890a2c-3fc6-493b-82db-2b398eee8c89.jpg",
+            "image": "shopify://shop_images/4001494b-66fd-4f19-9784-d8cfff550b47.png",
             "icon": "none",
             "icon_width": 24,
-            "title": " Plongez dans un univers de jeux légendaires ",
+            "title": "Plongez dans un univers de jeux légendaires ",
             "content": "<p>Avec plus de <strong>40 000 jeux intégrés</strong>, cette console regroupe <strong>toutes les époques du gaming</strong> : arcade, Nintendo, Sega, PlayStation, Game Boy et bien plus encore.</p><p>Aucun téléchargement, aucun abonnement — <strong>vous allumez, vous jouez</strong>.</p><p>Redécouvrez les classiques qui ont marqué votre enfance, directement dans votre main.</p>"
           }
         },
@@ -111,9 +111,7 @@
         "item_HXwaYH",
         "item_QTDXrp"
       ],
-      "custom_css": [
-        ".custom-heading {font-size: 20px !important; line-height: 1.3;}"
-      ],
+      "custom_css": [],
       "name": "Images and text scrolling",
       "settings": {
         "full_width": true,
