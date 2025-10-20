@@ -37,7 +37,7 @@
     "text_font_size_desktop": 16,
     "currency_code_enabled": false,
     "heading_apparition": "none",
-    "show_sold_out_badge": false,
+    "show_sold_out_badge": true,
     "show_discount": false,
     "discount_mode": "saving",
     "product_color_display": "swatch",
