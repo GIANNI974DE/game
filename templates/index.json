@@ -199,7 +199,7 @@
         "content_max_width_mobile": 340,
         "content_padding_vertical": 30,
         "content_padding_horizontal": 30,
-        "content_distance": 60,
+        "content_distance": 100,
         "content_radius": 10,
         "content_border_thickness": 0,
         "use_shadow": false,
