@@ -348,6 +348,27 @@
         "background_gradient": "",
         "text_color": ""
       }
+    },
+    "contact_Cz7q6w": {
+      "type": "contact",
+      "name": "Contact form",
+      "settings": {
+        "full_width": true,
+        "subheading": "Profitez de -10% de réduction supplémentaire",
+        "title": "On a besoin de votre avis",
+        "content": "",
+        "text_position": "center",
+        "contact_form_size": "large",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "contact_background": "",
+        "contact_text_color": "",
+        "button_background": "#6c5ce7",
+        "button_text_color": ""
+      }
     }
   },
   "order": [
@@ -357,6 +378,7 @@
     "multi_column_zD3TYK",
     "rich_text_igtffN",
     "custom_html_tNaQQb",
-    "custom_html_c44WQz"
+    "custom_html_c44WQz",
+    "contact_Cz7q6w"
   ]
 }
