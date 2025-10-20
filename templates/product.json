@@ -84,7 +84,7 @@
           "settings": {
             "show_payment_button": false,
             "show_gift_card_recipient": true,
-            "atc_button_background": "#803cee",
+            "atc_button_background": "#6c5ce7",
             "atc_button_text_color": "",
             "payment_button_background": "",
             "payment_button_text_color": ""
@@ -220,7 +220,7 @@
         "item_pMggLw": {
           "type": "item",
           "settings": {
-            "video": "shopify://files/videos/Sans titre (1080 x 1440 px) (2).mp4",
+            "video": "shopify://files/videos/Sans titre (1080 x 1440 px).mp4",
             "column_size": "1.5",
             "title": "",
             "heading_tag": "h4",
