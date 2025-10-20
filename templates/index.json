@@ -257,10 +257,10 @@
           "type": "badges",
           "settings": {}
         },
-        "price_KPCwqb": {
-          "type": "price",
+        "liquid_MAkTqX": {
+          "type": "liquid",
           "settings": {
-            "show_taxes_notice": false
+            "liquid": "<div class=\"custom-price\">\n  <span class=\"price-current\">59,99 €</span>\n  <span class=\"price-old\">74,99 €</span>\n</div>\n\n<style>\n  .custom-price {\n    display: flex;\n    align-items: center;\n    gap: 10px;\n  }\n\n  .price-current {\n    color: #E53935; /* rouge vif */\n    font-weight: 600;\n    font-size: 20px;\n  }\n\n  .price-old {\n    color: #444;\n    text-decoration: line-through;\n    font-size: 18px;\n    opacity: 0.9;\n  }\n</style>"
           }
         },
         "liquid_ejKJfV": {
@@ -331,7 +331,7 @@
       "block_order": [
         "title_PxAf4E",
         "badges_cgRaWM",
-        "price_KPCwqb",
+        "liquid_MAkTqX",
         "liquid_ejKJfV",
         "separator_MXKDcq",
         "rating_MV3wmj",
