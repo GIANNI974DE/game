@@ -244,6 +244,10 @@
             "show_taxes_notice": false
           }
         },
+        "separator_MXKDcq": {
+          "type": "separator",
+          "settings": {}
+        },
         "rating_MV3wmj": {
           "type": "rating",
           "settings": {
@@ -255,10 +259,6 @@
           "settings": {
             "liquid": "<div class=\"product-features\">\n  <ul class=\"features-list\">\n    <li>\n      <!-- Icône Menthe -->\n      <img class=\"feature-icon\" src=\"https://cdn.shopify.com/s/files/1/0954/3535/8488/files/Sans_titre_500_x_500_px.png?v=1760962466=\"40\" height=\"40\" loading=\"lazy\">\n      <span><strong></strong> 40 000 jeux légendaires !</span>\n    </li>\n\n    <li>\n      <!-- Icône Chlorophylle -->\n      <img class=\"feature-icon\" src=\"https://cdn.shopify.com/s/files/1/0954/3535/8488/files/Sans_titre_500_x_500_px_1.png?v=1760962466\" alt=\"Chlorophylle\" width=\"40\" height=\"40\" loading=\"lazy\">\n      <span><strong></strong> Jouez où vous voulez, quand vous voulez</span>\n    </li>\n\n    <li>\n      <!-- Icône Persil -->\n      <img class=\"feature-icon\" src=\"https://cdn.shopify.com/s/files/1/0954/3535/8488/files/Sans_titre_500_x_500_px_2.png?v=1760962465\" alt=\"Persil\" width=\"40\" height=\"40\" loading=\"lazy\">\n      <span><strong></strong> Batterie longue durée & sauvegarde</span>\n    </li>\n\n    <li>\n      <!-- Icône supplémentaire -->\n      <img class=\"feature-icon\" src=\"https://cdn.shopify.com/s/files/1/0954/3535/8488/files/Sans_titre_500_x_500_px_3.png?v=1760962465\" alt=\"Ingrédient supplémentaire\" width=\"40\" height=\"40\" loading=\"lazy\">\n      <span><strong></strong> Écran HD de haute qualité</span>\n    </li>\n  </ul>\n</div>\n\n<style>\n.product-features {\n  margin: 30px 0;\n}\n\n.features-list {\n  list-style: none;\n  padding: 0;\n  margin: 0;\n}\n\n.features-list li {\n  display: flex;\n  align-items: center;\n  gap: 16px; /* augmenté pour garder de l’air entre icône et texte */\n  margin-bottom: px;\n  font-size: 17px; /* x2 */\n  line-height: 1.6;\n}\n\n.feature-icon {\n  width: 40px;  /* x2 */\n  height: 40px; /* x2 */\n  object-fit: contain;\n  border-radius: 6px;\n}\n\n.features-list li span {\n  color: #333;\n}\n</style>"
           }
-        },
-        "separator_MXKDcq": {
-          "type": "separator",
-          "settings": {}
         },
         "description_xJqwtd": {
           "type": "description",
@@ -286,34 +286,35 @@
           "disabled": true,
           "settings": {}
         },
-        "buy_buttons_tgdPDG": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_payment_button": false,
-            "show_gift_card_recipient": false,
-            "atc_button_background": "#6c5ce7",
-            "atc_button_text_color": "",
-            "payment_button_background": "",
-            "payment_button_text_color": ""
-          }
-        },
         "pickup_availability_FjeACB": {
           "type": "pickup_availability",
           "settings": {}
+        },
+        "button_QCziBL": {
+          "type": "button",
+          "settings": {
+            "link": "shopify://products/all-in-one-gamelab-console",
+            "text": "Plus d'information",
+            "size": "lg",
+            "style": "fill",
+            "stretch": true,
+            "background": "#6c5ce7",
+            "text_color": ""
+          }
         }
       },
       "block_order": [
         "title_PxAf4E",
         "badges_cgRaWM",
         "price_KPCwqb",
+        "separator_MXKDcq",
         "rating_MV3wmj",
         "liquid_GLGFBa",
-        "separator_MXKDcq",
         "description_xJqwtd",
         "variant_picker_iUda8w",
         "quantity_selector_gApLi9",
-        "buy_buttons_tgdPDG",
-        "pickup_availability_FjeACB"
+        "pickup_availability_FjeACB",
+        "button_QCziBL"
       ],
       "name": "Featured product",
       "settings": {
