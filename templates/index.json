@@ -257,6 +257,12 @@
             "show_empty": false
           }
         },
+        "liquid_GLGFBa": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"mini-desc-console\">\n  <p>🎮 40 000 jeux légendaires</strong><br>\n</p>\n\n  <p>🌍 Jouez où vous voulez, quand vous voulez</strong><br>\n</p>\n\n  <p>🔋 Batterie longue durée & sauvegarde</strong><br>\n  </p>\n\n  <p>📺 Écran HD de haute qualité</strong><br>\n</p>\n</div>\n\n<style>\n  .mini-desc-console {\n    background: transparent; /* ✅ fond transparent */\n    border: none; /* supprime la bordure */\n    padding: 12px 16px;\n    font-size: 15px;\n    color: #222;\n    line-height: 1.6;\n  }\n  .mini-desc-console p {\n    margin: 10px 0;\n  }\n  .mini-desc-console strong {\n    color: #000; /* titres en noir */\n  }\n  @media (max-width: 480px) {\n    .mini-desc-console {\n      font-size: 14px;\n      padding: 10px;\n    }\n  }\n</style>"
+          }
+        },
         "separator_MXKDcq": {
           "type": "separator",
           "settings": {}
@@ -309,6 +315,7 @@
         "badges_cgRaWM",
         "price_KPCwqb",
         "rating_MV3wmj",
+        "liquid_GLGFBa",
         "separator_MXKDcq",
         "description_xJqwtd",
         "variant_picker_iUda8w",
