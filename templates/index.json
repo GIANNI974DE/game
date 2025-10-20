@@ -294,7 +294,7 @@
         "button_QCziBL": {
           "type": "button",
           "settings": {
-            "link": "shopify://products/all-in-one-gamelab-console",
+            "link": "shopify://products/retroplay-mini",
             "text": "Plus d'information",
             "size": "lg",
             "style": "fill",
@@ -320,7 +320,7 @@
       "name": "Featured product",
       "settings": {
         "full_width": true,
-        "product": "all-in-one-gamelab-console",
+        "product": "retroplay-mini",
         "desktop_media_width": 50,
         "desktop_media_layout": "carousel_thumbnails_left",
         "mobile_media_size": "contained",
