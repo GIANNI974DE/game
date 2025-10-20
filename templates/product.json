@@ -34,6 +34,12 @@
             "liquid": "{%- assign rating = 4.5 -%}\n{%- assign count = 214 -%}\n{%- assign pct = rating | divided_by: 5.0 | times: 100 -%}\n\n<style>\n  .rbadge {\n    display: inline-flex;\n    align-items: center;\n    gap: 8px;\n    font-size: 16px;\n    line-height: 1;\n  }\n\n  .rbadge__stars {\n    position: relative;\n    display: inline-block;\n    width: 110px;\n    height: 20px;\n  }\n\n  /* Étoiles vides */\n  .rbadge__stars::before {\n    content: \"★★★★★\";\n    letter-spacing: 2px;\n    font-size: 20px;\n    color: #ccc;\n    position: absolute;\n    left: 0;\n    top: -2px;\n  }\n\n  /* Étoiles remplies */\n  .rbadge__fill {\n    position: absolute;\n    left: 0;\n    top: -2px;\n    overflow: hidden;\n    height: 24px;\n    width: var(--rbadge-pct);\n  }\n  .rbadge__fill::before {\n    content: \"★★★★★\";\n    letter-spacing: 2px;\n    font-size: 20px;\n    color: #FFC107; /* ⭐️ Jaune */\n  }\n\n  /* Texte noir */\n  .rbadge__text {\n    color: #000;\n    font-weight: 600;\n    opacity: 0.9;\n  }\n</style>\n\n<span class=\"rbadge\">\n  <span class=\"rbadge__stars\" style=\"--rbadge-pct: {{ pct }}%;\">\n    <span class=\"rbadge__fill\"></span>\n  </span>\n  <span class=\"rbadge__text\">{{ count }} avis</span>\n</span>"
           }
         },
+        "price_xCkEfk": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
         "separator": {
           "type": "separator",
           "settings": {}
@@ -48,7 +54,7 @@
           "type": "buy_buttons",
           "settings": {
             "show_payment_button": false,
-            "show_gift_card_recipient": true,
+            "show_gift_card_recipient": false,
             "atc_button_background": "#6c5ce7",
             "atc_button_text_color": "#ffffff",
             "payment_button_background": "#6c5ce7",
@@ -87,6 +93,7 @@
         "badges",
         "liquid_GNVh7w",
         "liquid_ChtfeV",
+        "price_xCkEfk",
         "separator",
         "liquid_AiePpg",
         "buy_buttons",
@@ -143,7 +150,7 @@
           "type": "item",
           "settings": {
             "title": "Description",
-            "content": "<p>Découvrez la <strong>Console Rétro Portable 40 000 Jeux</strong>, l’expérience ultime pour les nostalgiques du gaming.</p><p>Avec des milliers de titres classiques préinstallés elle vous plonge dans des heures de plaisir, sans installation ni connexion requise.</p><p><br/>Compacte, légère et équipée d’un <strong>écran HD lumineux</strong>, 128 GB d'espace de stockage cette console offre une image fluide et des couleurs éclatantes.</p><p>Sa <strong>batterie longue durée (8 à 10 heures)</strong> vous accompagne partout : à la maison, au bureau ou même en déplacement.</p><p>Branchez-la à votre <strong>télévision via HDMI</strong> pour profiter d’un grand écran et revivre vos jeux préférés en famille ou entre amis.</p><p><br/>Grâce à sa fonction de <strong>sauvegarde intégrée</strong>, reprenez chaque partie exactement là où vous l’aviez laissée.</p><p>Une console tout-en-un, <strong>simple, pratique et prête à jouer</strong> dès la première mise sous tension.</p>"
+            "content": "<p>Découvrez la <strong>Console Rétro Portable 40 000 Jeux</strong>, l’expérience ultime pour les nostalgiques du gaming.</p><p>Avec des milliers de titres classiques préinstallés elle vous plonge dans des heures de plaisir, sans installation ni connexion requise.</p><p><br/>Compacte, légère et équipée d’un <strong>écran HD lumineux</strong>, cette console offre une image fluide et des couleurs éclatantes.</p><p>Sa <strong>batterie longue durée (8 à 10 heures)</strong> vous accompagne partout : à la maison, au bureau ou même en déplacement.</p><p>Branchez-la à votre <strong>télévision via HDMI</strong> pour profiter d’un grand écran et revivre vos jeux préférés en famille ou entre amis.</p><p><br/>Grâce à sa fonction de <strong>sauvegarde intégrée</strong>, reprenez chaque partie exactement là où vous l’aviez laissée.</p><p>Une console tout-en-un, <strong>simple, pratique et prête à jouer</strong> dès la première mise sous tension.</p>"
           }
         },
         "item_3BFD7q": {
