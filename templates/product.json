@@ -369,6 +369,83 @@
         "button_background": "#6c5ce7",
         "button_text_color": ""
       }
+    },
+    "faq_KKLyHN": {
+      "type": "faq",
+      "blocks": {
+        "item_yfziGp": {
+          "type": "item",
+          "settings": {
+            "title": "Quelle est la taille de l’écran ?",
+            "content": "<p>💬 L’écran IPS de 3<strong>,5 pouces</strong> offre une excellente luminosité, des couleurs vives et un bon angle de vision, idéal pour le jeu portable.</p>"
+          }
+        },
+        "item_PPjh8m": {
+          "type": "item",
+          "settings": {
+            "title": "Est-ce compatible avec tous les types de jeux ?",
+            "content": "<p>💬 La console est compatible avec plus de <strong>20 plateformes rétro</strong> : NES, SNES, GameBoy, GBA, PS1, PSP, Megadrive, Arcade (MAME), et bien d’autres.</p><p>Certains jeux récents 3D très lourds peuvent cependant ne pas être pris en charge.</p>"
+          }
+        },
+        "item_JYq7wx": {
+          "type": "item",
+          "settings": {
+            "title": "Les sauvegardes de jeu sont-elles possibles ?",
+            "content": "<p>💬 Tout à fait. Appuyez sur <strong>Select + X</strong> pour sauvegarder votre partie à tout moment, même au beau milieu d’un niveau.</p><p>Reprenez ensuite où vous vous étiez arrêté sans perdre votre progression.</p>"
+          }
+        },
+        "item_HraXnR": {
+          "type": "item",
+          "settings": {
+            "title": "Combien de temps faut-il pour la recevoir ?",
+            "content": "<p>💬 Les commandes sont expédiées sous <strong>24–48 h</strong>, et la livraison prend en général <strong>5 à 9 jours ouvrés</strong> selon ta localisation.</p>"
+          }
+        },
+        "item_P3Kx7m": {
+          "type": "item",
+          "settings": {
+            "title": "Puis-je ajouter mes propres jeux ?",
+            "content": "<p>💬 Oui ! Il suffit de <strong>connecter la console à votre ordinateur via USB</strong> ou d’utiliser une <strong>carte micro-SD</strong> pour ajouter vos propres ROMs.</p>"
+          }
+        },
+        "item_K493mY": {
+          "type": "item",
+          "settings": {
+            "title": "Peut-on jouer à plusieurs ?",
+            "content": "<p>💬 Oui ! Vous pouvez <strong>jouer à deux</strong> en connectant deux consoles GameLab grace au dongle <strong>Wi-Fi </strong>.</p><p>Profitez ainsi du <strong>multijoueur local</strong> sur vos jeux préférés : courses, combats, mini-jeux et plus encore.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_yfziGp",
+        "item_PPjh8m",
+        "item_JYq7wx",
+        "item_HraXnR",
+        "item_P3Kx7m",
+        "item_K493mY"
+      ],
+      "name": "FAQ",
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "FAQ",
+        "content": "",
+        "team_avatar_width": 160,
+        "support_hours": "",
+        "answer_time": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
     }
   },
   "order": [
@@ -379,6 +456,7 @@
     "rich_text_igtffN",
     "custom_html_tNaQQb",
     "custom_html_c44WQz",
-    "contact_Cz7q6w"
+    "contact_Cz7q6w",
+    "faq_KKLyHN"
   ]
 }
