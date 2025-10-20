@@ -28,15 +28,8 @@
         },
         "price": {
           "type": "price",
-          "disabled": true,
           "settings": {
             "show_taxes_notice": false
-          }
-        },
-        "liquid_CbqUN7": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<style>\n.product-prices {\n  display: flex;\n  align-items: center;\n  gap: 12px;\n  font-family: inherit;\n}\n\n.product-prices .current-price {\n  color: #E53935; /* rouge vif */\n  font-size: 22px;\n  font-weight: 700;\n}\n\n.product-prices .compare-price {\n  color: #777;\n  font-size: 20px;\n  text-decoration: line-through;\n  opacity: 0.8;\n}\n</style>\n\n<div class=\"product-prices\">\n  {% if product.compare_at_price > product.price %}\n    <span class=\"current-price\">{{ product.price | money }}</span>\n    <span class=\"compare-price\">{{ product.compare_at_price | money }}</span>\n  {% else %}\n    <span class=\"current-price\">{{ product.price | money }}</span>\n  {% endif %}\n</div>"
           }
         },
         "liquid_aAhC64": {
@@ -109,7 +102,6 @@
         "title",
         "badges",
         "price",
-        "liquid_CbqUN7",
         "liquid_aAhC64",
         "liquid_AiePpg",
         "rating",
