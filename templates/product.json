@@ -256,19 +256,6 @@
             "link_style": "link"
           }
         },
-        "item_zXzeFQ": {
-          "type": "item",
-          "settings": {
-            "video": "shopify://files/videos/Vidéo avis 88.mp4",
-            "column_size": "4",
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
         "item_r8TfDJ": {
           "type": "item",
           "settings": {
@@ -287,7 +274,6 @@
         "item_pMggLw",
         "item_ygAMFr",
         "item_jxGQAF",
-        "item_zXzeFQ",
         "item_r8TfDJ"
       ],
       "name": "Multi-column",
