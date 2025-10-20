@@ -58,8 +58,8 @@
           "settings": {
             "text": "Le plaisir intemporel du jeu rétro, dans le creux de votre main",
             "heading_tag": "h3",
-            "text_color": "",
-            "gradient": "linear-gradient(228deg, rgba(21, 209, 252, 1) 14%, rgba(187, 48, 254, 1) 83%)"
+            "text_color": "#6c5ce7",
+            "gradient": ""
           }
         },
         "richtext_Ki4a96": {
@@ -124,8 +124,8 @@
         "background": "",
         "background_gradient": "",
         "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "linear-gradient(230deg, rgba(10, 234, 237, 1) 11%, rgba(250, 13, 253, 1) 84%)"
+        "heading_color": "#6c5ce7",
+        "heading_gradient": ""
       }
     },
     "scrolling_image_LBcAbG": {
