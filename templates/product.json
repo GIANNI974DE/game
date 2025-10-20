@@ -25,7 +25,7 @@
         "liquid_GNVh7w": {
           "type": "liquid",
           "settings": {
-            "liquid": "{%- assign v = product.selected_or_first_available_variant -%}\n\n<div class=\"custom-price\">\n  <span class=\"price-current\">{{ v.price | money }}</span>\n  <span class=\"price-old\">74,99 €</span>\n</div>\n\n<style>\n  .custom-price {\n    display: flex;\n    align-items: center;\n    gap: 10px;\n  }\n\n  .price-current {\n    color: #E53935; /* rouge vif */\n    font-weight: 600;\n    font-size: 20px;\n  }\n\n  .price-old {\n    color: #444;\n    text-decoration: line-through;\n    font-size: 18px;\n    opacity: 0.9;\n  }\n</style>"
+            "liquid": "<div class=\"custom-price\">\n  <span class=\"price-current\">59,99 €</span>\n  <span class=\"price-old\">74,99 €</span>\n</div>\n\n<style>\n  .custom-price {\n    display: flex;\n    align-items: center;\n    gap: 10px;\n  }\n\n  .price-current {\n    color: #E53935; /* rouge vif */\n    font-weight: 600;\n    font-size: 20px;\n  }\n\n  .price-old {\n    color: #444;\n    text-decoration: line-through;\n    font-size: 18px;\n    opacity: 0.9;\n  }\n</style>"
           }
         },
         "liquid_ChtfeV": {
