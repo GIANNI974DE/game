@@ -34,6 +34,10 @@
             "liquid": "{%- assign rating = 4.5 -%}\n{%- assign count = 214 -%}\n{%- assign pct = rating | divided_by: 5.0 | times: 100 -%}\n\n<style>\n  .rbadge {\n    display: inline-flex;\n    align-items: center;\n    gap: 8px;\n    font-size: 16px;\n    line-height: 1;\n  }\n\n  .rbadge__stars {\n    position: relative;\n    display: inline-block;\n    width: 110px;\n    height: 20px;\n  }\n\n  /* Étoiles vides */\n  .rbadge__stars::before {\n    content: \"★★★★★\";\n    letter-spacing: 2px;\n    font-size: 20px;\n    color: #ccc;\n    position: absolute;\n    left: 0;\n    top: -2px;\n  }\n\n  /* Étoiles remplies */\n  .rbadge__fill {\n    position: absolute;\n    left: 0;\n    top: -2px;\n    overflow: hidden;\n    height: 24px;\n    width: var(--rbadge-pct);\n  }\n  .rbadge__fill::before {\n    content: \"★★★★★\";\n    letter-spacing: 2px;\n    font-size: 20px;\n    color: #FFC107; /* ⭐️ Jaune */\n  }\n\n  /* Texte noir */\n  .rbadge__text {\n    color: #000;\n    font-weight: 600;\n    opacity: 0.9;\n  }\n</style>\n\n<span class=\"rbadge\">\n  <span class=\"rbadge__stars\" style=\"--rbadge-pct: {{ pct }}%;\">\n    <span class=\"rbadge__fill\"></span>\n  </span>\n  <span class=\"rbadge__text\">{{ count }} avis</span>\n</span>"
           }
         },
+        "separator": {
+          "type": "separator",
+          "settings": {}
+        },
         "liquid_AiePpg": {
           "type": "liquid",
           "settings": {
@@ -48,10 +52,6 @@
         },
         "payment_terms": {
           "type": "payment_terms",
-          "settings": {}
-        },
-        "separator": {
-          "type": "separator",
           "settings": {}
         },
         "variant_picker": {
@@ -98,10 +98,10 @@
         "badges",
         "price",
         "liquid_ChtfeV",
+        "separator",
         "liquid_AiePpg",
         "rating",
         "payment_terms",
-        "separator",
         "variant_picker",
         "quantity_selector",
         "liquid_t3gM7M",
