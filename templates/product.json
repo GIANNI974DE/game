@@ -395,7 +395,7 @@
           "type": "item",
           "settings": {
             "title": "Peut-on jouer à plusieurs ?",
-            "content": "<p>💬 Oui ! Vous pouvez <strong>jouer à deux</strong> en connectant deux consoles GameLab grace au dongle <strong>Wi-Fi </strong>.</p><p>Profitez ainsi du <strong>multijoueur local</strong> sur vos jeux préférés : courses, combats, mini-jeux et plus encore.</p>"
+            "content": "<p>💬 Oui ! Vous pouvez <strong>jouer à deux</strong> en connectant deux consoles GameLab grace au dongle <strong>Wi-Fi </strong>.</p><p></p>"
           }
         }
       },
